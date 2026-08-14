@@ -1,0 +1,269 @@
+{
+  "assets": {
+    "assets": {
+      "jepa_wms_dataset": {
+        "files": [
+          {
+            "relative_path": "franka_custom/data/folding/foldjacketsleeve_v0/run_0001/episode.h5",
+            "sha256": "e9474f38fb76e61d1bf19d93879a87291a598a17c4be07914dd4aee28a51195f",
+            "size_bytes": 189855385
+          },
+          {
+            "relative_path": "franka_custom/data/folding/foldjacketsleeve_v0/run_0001/trajectory.hdf5",
+            "sha256": "7bc4fe289fbb0a04eb232c18f74be4432797c9b62078621631ac6deb3dc989d6",
+            "size_bytes": 61696
+          },
+          {
+            "relative_path": "franka_custom/data/folding/foldjacketsleeve_v1/run_0001/episode.h5",
+            "sha256": "483e92bec6ce3f8a5a989dfc8e1206cbcbe2fe3b1fd577d499939555a11b8c20",
+            "size_bytes": 197012778
+          },
+          {
+            "relative_path": "franka_custom/data/folding/foldjacketsleeve_v1/run_0001/trajectory.hdf5",
+            "sha256": "d4c1a57076d06691067b176a89a74578f9041628dc9f19dfcd924ab99500e24c",
+            "size_bytes": 47616
+          },
+          {
+            "relative_path": "franka_custom/data/pick/liftcup_v0/run_0001/episode.h5",
+            "sha256": "aac5f6e4907201abaff27d1dd442e83c5625eb8a8a83b55770fd55c799b48906",
+            "size_bytes": 44216443
+          },
+          {
+            "relative_path": "franka_custom/data/pick/liftcup_v0/run_0001/trajectory.hdf5",
+            "sha256": "75ceb2f8fe77fa47180da20c4bfca7fe4838aa45cfd86dc5dfc7ff2b24f6a14e",
+            "size_bytes": 19456
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickandplaceredcube_v0/run_0001/episode.h5",
+            "sha256": "2719db59b5c20da25c9ed8f13b1397f95e2fc47681d2c4d40c0fc61c0611c20b",
+            "size_bytes": 159690621
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickandplaceredcube_v0/run_0001/trajectory.hdf5",
+            "sha256": "2517356364283ccc725f1dc860c6abca9e5a32674572f76df4bbc9ed16cdd890",
+            "size_bytes": 48384
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickcube_v0/run_0001/episode.h5",
+            "sha256": "ff84d1449a5c1c35fd791f10b52fd95efca8a67a059bcc94548200c3977fc17b",
+            "size_bytes": 141033779
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickcube_v0/run_0001/trajectory.hdf5",
+            "sha256": "faa4b404b0434fa4527c80bb69584a99acbde2170938460745fa72b15c77b7b3",
+            "size_bytes": 39168
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickpen_v0/run_0001/episode.h5",
+            "sha256": "a64566f6641c9220e977d133d13f2f865a2a995b83dbd24246da0da962008ac4",
+            "size_bytes": 142404547
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickpen_v0/run_0001/trajectory.hdf5",
+            "sha256": "faa4b404b0434fa4527c80bb69584a99acbde2170938460745fa72b15c77b7b3",
+            "size_bytes": 39168
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickupcup_v0/run_0001/episode.h5",
+            "sha256": "0b38519d024b50febe2e6adfb78287013ec11c8d33a56148b9f4006dc66aca13",
+            "size_bytes": 71884815
+          },
+          {
+            "relative_path": "franka_custom/data/pick/pickupcup_v0/run_0001/trajectory.hdf5",
+            "sha256": "5f5a4f6970a47a99ee6eba887b326081c60af98e592789ad3e27d83a3873adbc",
+            "size_bytes": 27392
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachcup_v0/run_0001/episode.h5",
+            "sha256": "3c132bfc244dc2783b79fd4afc9dc623ee21d7fd43b0d40b366ceafa52202ef4",
+            "size_bytes": 74704284
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachcup_v0/run_0001/trajectory.hdf5",
+            "sha256": "c403b49deb8c30579a705e22749e706527ca17952c7c341cf2babf64dc06bb73",
+            "size_bytes": 27648
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachliftcup_v0/run_0001/episode.h5",
+            "sha256": "d7d272cb0d2026b9fa40f236c6bc5e87b603f32c377d2afbcbcbc54030ac03d6",
+            "size_bytes": 99419635
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachliftcup_v0/run_0001/trajectory.hdf5",
+            "sha256": "34793c18086ef95d7e675a184fab71decc533d61618057abb3070857c1ca43a3",
+            "size_bytes": 33792
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachliftcup_v1/run_0001/episode.h5",
+            "sha256": "3913a898a70d2e60c7261c96e3952390f25b6120bfefcc5771ffa83adca24cc7",
+            "size_bytes": 115353743
+          },
+          {
+            "relative_path": "franka_custom/data/pick/reachliftcup_v1/run_0001/trajectory.hdf5",
+            "sha256": "34793c18086ef95d7e675a184fab71decc533d61618057abb3070857c1ca43a3",
+            "size_bytes": 33792
+          },
+          {
+            "relative_path": "franka_custom/data/pick/v0/run_0001/episode.h5",
+            "sha256": "2a3b44dbb4331654dfb207b1e92f41acdcdc670ca838a6f9bed0d8f1ef52cc01",
+            "size_bytes": 344981504
+          },
+          {
+            "relative_path": "franka_custom/data/pick/v0/run_0001/trajectory.hdf5",
+            "sha256": "5f495f076032090a3cf5049eb525cef64f67404de431c68e2dcf73674fdb4fdc",
+            "size_bytes": 128512
+          },
+          {
+            "relative_path": "franka_custom/data/push/brownboxpush_v0/run_0001/episode.h5",
+            "sha256": "6a27222047ee84d258b083bce3867182988e05cc9604f291a3bee3ea75eadf27",
+            "size_bytes": 143889221
+          },
+          {
+            "relative_path": "franka_custom/data/push/brownboxpush_v0/run_0001/trajectory.hdf5",
+            "sha256": "7f27a4dd1dbb46d8bc37b22e1d737fd4a49150c6e5eed9953dfa2e9f7ff812f9",
+            "size_bytes": 38144
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/blue_bowl/episode.h5",
+            "sha256": "0ce34f33a195e2d578654bb39c7687acc7d6818bc3dca7571886d58df0090cd4",
+            "size_bytes": 95185852
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/blue_bowl/trajectory.hdf5",
+            "sha256": "35a4cd2db50a92ba34dc6e88571ac81c7df047397df548127e09a7edce9fc110",
+            "size_bytes": 36608
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/blue_box/episode.h5",
+            "sha256": "87bc6c0031433716c02b6bcf0ebe590cee62d0d3837e5e9606c926313ef5e80b",
+            "size_bytes": 95926166
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/blue_box/trajectory.hdf5",
+            "sha256": "35a4cd2db50a92ba34dc6e88571ac81c7df047397df548127e09a7edce9fc110",
+            "size_bytes": 36608
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/cap/episode.h5",
+            "sha256": "005e1e5af47c0294ae7f651bcffebbd4ff5d5f6ebad06aa9817a747289c28f64",
+            "size_bytes": 95826539
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/cap/trajectory.hdf5",
+            "sha256": "35a4cd2db50a92ba34dc6e88571ac81c7df047397df548127e09a7edce9fc110",
+            "size_bytes": 36608
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/pengiun_plush/episode.h5",
+            "sha256": "93c73e1dfebb723f544985c49bb84ae1ecc41e6ed7929c6f025489e53d95493a",
+            "size_bytes": 93849917
+          },
+          {
+            "relative_path": "franka_custom/data/push/push_various_objects/pengiun_plush/trajectory.hdf5",
+            "sha256": "35a4cd2db50a92ba34dc6e88571ac81c7df047397df548127e09a7edce9fc110",
+            "size_bytes": 36608
+          },
+          {
+            "relative_path": "franka_custom/hf_data/train-00000-of-00001.parquet",
+            "sha256": "34f48b25c4518a4ce2a5040165d37904197fdcb15b2ee12885a73b7b7d9dba51",
+            "size_bytes": 6070291
+          }
+        ],
+        "repo_id": "facebook/jepa-wms",
+        "repo_type": "dataset",
+        "revision": "6116f042ae7ae4c8e3f1fd2f194f432615664182",
+        "role": "official real-robot Franka evaluation trajectories used by the upstream project"
+      },
+      "jepa_wms_model": {
+        "files": [
+          {
+            "relative_path": "dino_wm_droid.pth.tar",
+            "sha256": "d61008184e8520a0015ae743e287e84c07262fdd94931801566ab3866202f5be",
+            "size_bytes": 262816635
+          }
+        ],
+        "repo_id": "facebook/jepa-wms",
+        "repo_type": "model",
+        "revision": "9b9c41ef249466630dbf1a20e78391865d07b3b9",
+        "role": "official pretrained DINO-WM DROID checkpoint"
+      }
+    }
+  },
+  "environment": {
+    "machine": "x86_64",
+    "platform": "Linux-6.8.0-1064-gcp-x86_64-with-glibc2.35",
+    "processor": "x86_64",
+    "python": "3.10.12 (main, Jun 22 2026, 18:55:27) [GCC 11.4.0]"
+  },
+  "experiment_id": "ccwm-real-franka-dinowm-v3-pool192-actionaligned",
+  "final_seal": "PASS",
+  "git_sources": {
+    "dinov2": {
+      "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+      "role": "frozen visual encoder loaded locally through the pinned upstream implementation",
+      "url": "https://github.com/facebookresearch/dinov2.git"
+    },
+    "jepa_wms": {
+      "commit": "13cf1d9c7e476f53c17714d2e0f1dc239a883ce0",
+      "role": "pretrained world-model implementation and exact DINO-WM evaluation configuration",
+      "url": "https://github.com/facebookresearch/jepa-wms.git"
+    }
+  },
+  "gpu": "NVIDIA A100-SXM4-40GB, 580.173.02, 40960 MiB",
+  "lean_contract": "PASS",
+  "lean_sources": {
+    "causality": {
+      "archive": "/opt/conformal-realrobot-v6/Conformal_RealRobot_Lab_v1/causality.zip",
+      "mathlib_commit": "fabf563a7c95a166b8d7b6efca11c8b4dc9d911f",
+      "root": "/opt/conformal-realrobot-v6/Conformal_RealRobot_Lab_v1/work/lean_sources/causality/causality",
+      "sha256": "10d36e640eb12c57feb716d775b1e203cbeeeb8c06c574a5a1bd7084477a1a61",
+      "toolchain": "leanprover/lean4:v4.31.0"
+    },
+    "measurements": {
+      "archive": "/opt/conformal-realrobot-v6/Conformal_RealRobot_Lab_v1/measurements(2).zip",
+      "mathlib_commit": "2c53994ec06c7197a0f05dd85e8aae96e454efb8",
+      "root": "/opt/conformal-realrobot-v6/Conformal_RealRobot_Lab_v1/work/lean_sources/measurements/measurements",
+      "sha256": "4535226e6b52804c0c72a214263c9fa8e35da9971395c08b0083b5c8bc598d60",
+      "toolchain": "leanprover/lean4:v4.30.0-rc2"
+    }
+  },
+  "status": "PASS",
+  "synthetic_generator_scan": {
+    "files": [
+      "src/ccwm_lab/conformal.py",
+      "src/ccwm_lab/ratio.py",
+      "src/ccwm_lab/report.py",
+      "src/ccwm_lab/world_model.py",
+      "src/ccwm_lab/stats.py",
+      "src/ccwm_lab/provenance.py",
+      "src/ccwm_lab/franka.py",
+      "src/ccwm_lab/io_utils.py",
+      "src/ccwm_lab/experiment.py",
+      "src/ccwm_lab/__init__.py",
+      "scripts/verify_lean_contract.py",
+      "scripts/00_preflight.py",
+      "scripts/02_fetch_assets.py",
+      "scripts/01_clone_sources.py",
+      "scripts/06_analyze.py",
+      "scripts/01_validate_upstream.py",
+      "scripts/04_score_world_model.py",
+      "scripts/07_prepare_lean.py",
+      "scripts/03_index_data.py",
+      "scripts/05_run_experiment.py",
+      "scripts/verify_seal.py"
+    ],
+    "status": "PASS"
+  },
+  "upstream_contract": {
+    "action_normalization": false,
+    "camera": "exterior_image_2_left",
+    "context_window": 2,
+    "encoder": "dinov2_vits14",
+    "fps": 4,
+    "manifest_pattern_count": 15,
+    "model_config": "configs/evals/simu_env_planning/droid/dino-wm/droid_L2_cem_sourcedset_H3_nas3_maxnorm01_ctxt2_gH3_r224_alpha0_ep64_decode.yaml",
+    "predictor": "dino_wm",
+    "real_dataset": "Franka_hf/franka_custom",
+    "status": "PASS"
+  }
+}

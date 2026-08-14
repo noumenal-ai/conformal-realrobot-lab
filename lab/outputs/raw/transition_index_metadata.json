@@ -1,0 +1,118 @@
+{
+  "camera_key": "episode_data/observation/exterior_image_2_left",
+  "context_frames": 2,
+  "data_root": "/opt/conformal-realrobot-v5/Conformal_RealRobot_Lab_v1/work/assets/jepa_wms_dataset/franka_custom",
+  "episode_count": 15,
+  "episodes": [
+    {
+      "episode_id": "956e6ac0f731794e",
+      "indexed_windows": 25,
+      "raw_frames": 209,
+      "relative_h5_path": "data/folding/foldjacketsleeve_v0/run_0001/episode.h5",
+      "task": "data/folding/foldjacketsleeve_v0/run_0001"
+    },
+    {
+      "episode_id": "a587ce648368a914",
+      "indexed_windows": 18,
+      "raw_frames": 154,
+      "relative_h5_path": "data/folding/foldjacketsleeve_v1/run_0001/episode.h5",
+      "task": "data/folding/foldjacketsleeve_v1/run_0001"
+    },
+    {
+      "episode_id": "4ff07b82da3975b1",
+      "indexed_windows": 4,
+      "raw_frames": 44,
+      "relative_h5_path": "data/pick/liftcup_v0/run_0001/episode.h5",
+      "task": "data/pick/liftcup_v0/run_0001"
+    },
+    {
+      "episode_id": "d73f8dde2b7cb7c2",
+      "indexed_windows": 18,
+      "raw_frames": 157,
+      "relative_h5_path": "data/pick/pickandplaceredcube_v0/run_0001/episode.h5",
+      "task": "data/pick/pickandplaceredcube_v0/run_0001"
+    },
+    {
+      "episode_id": "0c43694c74cb26a0",
+      "indexed_windows": 14,
+      "raw_frames": 121,
+      "relative_h5_path": "data/pick/pickcube_v0/run_0001/episode.h5",
+      "task": "data/pick/pickcube_v0/run_0001"
+    },
+    {
+      "episode_id": "45109c81a729d48b",
+      "indexed_windows": 14,
+      "raw_frames": 121,
+      "relative_h5_path": "data/pick/pickpen_v0/run_0001/episode.h5",
+      "task": "data/pick/pickpen_v0/run_0001"
+    },
+    {
+      "episode_id": "dcd5057d94a4a5a2",
+      "indexed_windows": 8,
+      "raw_frames": 75,
+      "relative_h5_path": "data/pick/pickupcup_v0/run_0001/episode.h5",
+      "task": "data/pick/pickupcup_v0/run_0001"
+    },
+    {
+      "episode_id": "4d56196d805cfa03",
+      "indexed_windows": 8,
+      "raw_frames": 76,
+      "relative_h5_path": "data/pick/reachcup_v0/run_0001/episode.h5",
+      "task": "data/pick/reachcup_v0/run_0001"
+    },
+    {
+      "episode_id": "578f41f9b4bb3ee9",
+      "indexed_windows": 11,
+      "raw_frames": 100,
+      "relative_h5_path": "data/pick/reachliftcup_v0/run_0001/episode.h5",
+      "task": "data/pick/reachliftcup_v0/run_0001"
+    },
+    {
+      "episode_id": "ce2788f36ba5f5a6",
+      "indexed_windows": 11,
+      "raw_frames": 100,
+      "relative_h5_path": "data/pick/reachliftcup_v1/run_0001/episode.h5",
+      "task": "data/pick/reachliftcup_v1/run_0001"
+    },
+    {
+      "episode_id": "a2c55ca656232a4b",
+      "indexed_windows": 13,
+      "raw_frames": 117,
+      "relative_h5_path": "data/push/brownboxpush_v0/run_0001/episode.h5",
+      "task": "data/push/brownboxpush_v0/run_0001"
+    },
+    {
+      "episode_id": "28f627f9f9a256ce",
+      "indexed_windows": 12,
+      "raw_frames": 111,
+      "relative_h5_path": "data/push/push_various_objects/blue_bowl/episode.h5",
+      "task": "data/push/push_various_objects/blue_bowl"
+    },
+    {
+      "episode_id": "3f1921f562603f87",
+      "indexed_windows": 12,
+      "raw_frames": 111,
+      "relative_h5_path": "data/push/push_various_objects/blue_box/episode.h5",
+      "task": "data/push/push_various_objects/blue_box"
+    },
+    {
+      "episode_id": "58e4ddbc318fd761",
+      "indexed_windows": 12,
+      "raw_frames": 111,
+      "relative_h5_path": "data/push/push_various_objects/cap/episode.h5",
+      "task": "data/push/push_various_objects/cap"
+    },
+    {
+      "episode_id": "2bd67c12cd40f1e3",
+      "indexed_windows": 12,
+      "raw_frames": 111,
+      "relative_h5_path": "data/push/push_various_objects/pengiun_plush/episode.h5",
+      "task": "data/push/push_various_objects/pengiun_plush"
+    }
+  ],
+  "evaluation_fps": 4,
+  "frame_step": 8,
+  "horizon": 1,
+  "source_fps": 30,
+  "transition_count": 192
+}

@@ -1,0 +1,23 @@
+info: toolchain not updated; already up-to-date
+info: mathlib: running post-update hooks
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8542 file(s)
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8542 file(s)
+⚠ [3185/3188] Replayed ConformalCounterfactuals.CommonState
+warning: ConformalCounterfactuals/CommonState.lean:34:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConformalCounterfactuals/CommonState.lean:34:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+Build completed successfully (3188 jobs).
+'ConformalCounterfactuals.common_state_propensity_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.doIntervene_clears_parents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.doIntervene_preserves_other_parents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

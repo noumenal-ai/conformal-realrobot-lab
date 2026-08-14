@@ -1,0 +1,49 @@
+info: toolchain not updated; already up-to-date
+info: mathlib: running post-update hooks
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8299 file(s)
+Current branch: HEAD
+Using cache (Azure) from origin: (some leanprover-community/mathlib4)
+No files to download
+Already decompressed 8299 file(s)
+⚠ [3307/3310] Replayed ConformalCounterfactuals.DomainClassifier
+warning: ConformalCounterfactuals/DomainClassifier.lean:39:2: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:68:6: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:68:6: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:156:19: unused variable `hγ1`
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:194:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:194:14: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:231:14: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+warning: ConformalCounterfactuals/DomainClassifier.lean:231:14: 'ring' tactic does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+Build completed successfully (3310 jobs).
+'ConformalCounterfactuals.odds_sub_odds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.finite_posterior_ratio_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.abs_sub_le_sqrt_klBin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.finite_mean_abs_le_sqrt_mean_kl' depends on axioms: [propext, Classical.choice, Quot.sound]
+'ConformalCounterfactuals.domain_classifier_regret_to_ratio_l1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ConformalCounterfactuals.balanced_domain_classifier_regret_to_ratio_l1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'ConformalCounterfactuals.classifier_regret_coverage_composition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

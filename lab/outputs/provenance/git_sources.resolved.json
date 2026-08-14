@@ -1,0 +1,10 @@
+{
+  "dinov2": {
+    "commit": "7764ea0f912e53c92e82eb78a2a1631e92725fc8",
+    "url": "https://github.com/facebookresearch/dinov2.git"
+  },
+  "jepa_wms": {
+    "commit": "13cf1d9c7e476f53c17714d2e0f1dc239a883ce0",
+    "url": "https://github.com/facebookresearch/jepa-wms.git"
+  }
+}

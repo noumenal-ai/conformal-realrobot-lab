@@ -1,0 +1,11 @@
+.DS_Store
+._*
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.env
+.env.*
+node_modules/
+lab/work/*
+!lab/work/.gitkeep

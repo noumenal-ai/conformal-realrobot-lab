@@ -1,0 +1,5 @@
+project=noumenalai
+zone=us-west1-b
+instance=dhruv-ccwm-realrobot-v3-20260814-172734
+deleted=true
+verification=GCP instance lookup returned not found after deletion

@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CCWM real-robot result cell",
+  "type": "object",
+  "required": [
+    "lambda", "alpha", "method", "coverage_mean", "coverage_ci_lower",
+    "coverage_ci_upper", "finite_radius_median_mean", "ess_mean",
+    "exact_tv_mean", "exact_l1_mean", "population_logistic_regret_mean",
+    "classifier_l1_bound_mean"
+  ],
+  "properties": {
+    "lambda": {"type": "number"},
+    "alpha": {"type": "number"},
+    "method": {"enum": ["unweighted", "oracle_ratio", "estimated_ratio", "estimated_ratio_clipped"]},
+    "coverage_mean": {"type": "number"},
+    "coverage_ci_lower": {"type": "number"},
+    "coverage_ci_upper": {"type": "number"},
+    "finite_radius_median_mean": {"type": ["number", "null"]},
+    "ess_mean": {"type": "number"},
+    "exact_tv_mean": {"type": "number"},
+    "exact_l1_mean": {"type": "number"},
+    "population_logistic_regret_mean": {"type": "number"},
+    "classifier_l1_bound_mean": {"type": "number"}
+  },
+  "additionalProperties": true
+}

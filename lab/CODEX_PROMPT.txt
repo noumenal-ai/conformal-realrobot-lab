@@ -1,0 +1,55 @@
+You are operating a frozen laboratory package. Do not perform research and do not make scientific
+choices.
+
+WORKING DIRECTORY
+- Unzip this package.
+- cd into the directory containing RUN_ALL.sh.
+
+READ, IN THIS ORDER
+1. AGENTS.md
+2. CODEX_EXECUTION_CONTRACT.md
+3. README.md
+4. THEORY.md
+5. SCIENTIFIC_PROTOCOL.md
+6. STATISTICAL_TOOLKIT.md
+7. lean/PROOF_ROUTES.md
+
+CREDENTIAL
+- Use the investigator's existing Hugging Face token only:
+  export HF_TOKEN='<existing token>'
+- Never search for, mirror, or substitute the gated dataset.
+
+EXECUTE
+  bash RUN_ALL.sh
+
+ONLY PERMITTED DEBUGGING
+- Repair ordinary installation, disk, CUDA, credential, or network failures without editing the
+  package's sealed scientific or experiment files.
+- When the Lean step reaches an AUTOFORMALIZE_ONLY proof body, edit only the proof body in a file
+  listed in lean/ALLOW_EDIT.txt.
+- Preserve every import, definition, theorem statement, namespace, toolchain, Mathlib pin, and
+  BEGIN/END marker.
+- Use only the supplied extracted Lean libraries, Mathlib through the locked Lake workspace, and
+  Loogle to resolve exact Mathlib names.
+- Follow lean/PROOF_ROUTES.md exactly. Do not invent an alternate theorem or assumption.
+
+RESUME
+  bash RUN_ALL.sh --resume
+
+STOP CONDITIONS
+- Never change the model, data, camera, tasks, score, shift, classifier, alpha grid, seeds, sample
+  sizes, clipping, repetitions, statistics, validation tolerances, or output schema.
+- Never generate data or outcomes.
+- Never drop a cell or weaken a gate.
+- Never add sorry, admit, axiom, unsafe, native_decide, or an unverified dependency.
+- Never declare success until both reports contain FINAL STATUS: PASS:
+    outputs/results/VALIDATION_REPORT.md
+    outputs/lean/LEAN_BUILD_REPORT.md
+
+RETURN UNCHANGED
+- outputs/HANDOFF_REPORT.md
+- outputs/run_manifest.json
+- the complete outputs/ directory
+
+Your role is the lab: execute, mechanically autoformalize the locked statements, and report the
+artifacts. Scientific interpretation is out of scope.

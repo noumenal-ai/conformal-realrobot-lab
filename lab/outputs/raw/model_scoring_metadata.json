@@ -1,0 +1,23 @@
+{
+  "action_alignment": "consecutive_pose_differences_for_each_context_frame",
+  "checkpoint_sha256": "d61008184e8520a0015ae743e287e84c07262fdd94931801566ab3866202f5be",
+  "cuda_version": "12.6",
+  "dinov2_backbone_sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+  "dinov2_backbone_url": "https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth",
+  "embedding_shape": [
+    192,
+    384
+  ],
+  "gpu": "NVIDIA A100-SXM4-40GB",
+  "model": "dino_wm_droid",
+  "score": "latent_root_mean_squared_error",
+  "torch_hub_cache_files": [
+    {
+      "relative_path": "hub/checkpoints/dinov2_vits14_pretrain.pth",
+      "sha256": "b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9",
+      "size_bytes": 88283115
+    }
+  ],
+  "torch_version": "2.7.0+cu126",
+  "transition_count": 192
+}

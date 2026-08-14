@@ -1,0 +1,62 @@
+schema_version: 1
+repositories:
+  jepa_wms:
+    url: https://github.com/facebookresearch/jepa-wms.git
+    commit: 13cf1d9c7e476f53c17714d2e0f1dc239a883ce0
+    license_file: LICENSE
+    role: pretrained world-model implementation and exact DINO-WM evaluation configuration
+  dinov2:
+    url: https://github.com/facebookresearch/dinov2.git
+    commit: 7764ea0f912e53c92e82eb78a2a1631e92725fc8
+    license_file: LICENSE
+    role: frozen visual encoder loaded locally through the pinned upstream implementation
+huggingface_assets:
+  jepa_wms_model:
+    repo_id: facebook/jepa-wms
+    repo_type: model
+    filenames:
+    - dino_wm_droid.pth.tar
+    role: official pretrained DINO-WM DROID checkpoint
+    revision: 9b9c41ef249466630dbf1a20e78391865d07b3b9
+  jepa_wms_dataset:
+    repo_id: facebook/jepa-wms
+    repo_type: dataset
+    allow_patterns:
+    - franka_custom/*
+    - franka_custom/**/*
+    role: official real-robot Franka evaluation trajectories used by the upstream project
+    revision: 6116f042ae7ae4c8e3f1fd2f194f432615664182
+pytorch_hub_assets:
+  dinov2_vits14:
+    url: https://dl.fbaipublicfiles.com/dinov2/dinov2_vits14/dinov2_vits14_pretrain.pth
+    filename: dinov2_vits14_pretrain.pth
+    sha256: b938bf1bc15cd2ec0feacfe3a1bb553fe8ea9ca46a7e1d8d00217f29aef60cd9
+    role: official frozen DINOv2 ViT-S/14 backbone weights loaded by the pinned DINOv2 repository
+local_lean_archives:
+  measurements:
+    accepted_basenames:
+    - measurements(2).zip
+    - measurements.zip
+    lean_toolchain: leanprover/lean4:v4.30.0-rc2
+    mathlib_commit: 2c53994ec06c7197a0f05dd85e8aae96e454efb8
+    role: binary Pinsker, real total variation, finite PMF expectation and transfer machinery
+    sha256: 4535226e6b52804c0c72a214263c9fa8e35da9971395c08b0083b5c8bc598d60
+  causality:
+    accepted_basenames:
+    - causality.zip
+    lean_toolchain: leanprover/lean4:v4.31.0
+    mathlib_commit: fabf563a7c95a166b8d7b6efca11c8b4dc9d911f
+    role: SCM and doIntervene architecture
+    sha256: 10d36e640eb12c57feb716d775b1e203cbeeeb8c06c574a5a1bd7084477a1a61
+network_allowlist:
+- github.com
+- objects.githubusercontent.com
+- raw.githubusercontent.com
+- huggingface.co
+- cdn-lfs.huggingface.co
+- cas-bridge.xethub.hf.co
+- dl.fbaipublicfiles.com
+- download.pytorch.org
+- pypi.org
+- files.pythonhosted.org
+- releases.lean-lang.org

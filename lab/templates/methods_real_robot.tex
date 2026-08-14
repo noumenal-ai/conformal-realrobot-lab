@@ -1,0 +1,27 @@
+\paragraph{External real-robot substrate.}
+We use the official \texttt{franka\_custom} physical-robot trajectories and the released
+\texttt{dino\_wm\_droid} checkpoint from \texttt{facebookresearch/jepa-wms}, with the repository
+and DINOv2 encoder checked out at the commits recorded in the artifact manifest. We follow the
+upstream DINO-WM evaluation configuration: 4 Hz sampling, camera
+\texttt{exterior\_image\_2\_left}, two context frames, and two aligned unnormalized
+seven-dimensional DROID-format delta-pose actions, deterministically reconstructed by the upstream
+\texttt{poses\_to\_diffs} routine from observed robot poses. No transition, image, target, or
+model score is simulated.
+
+\paragraph{One-step score.}
+For each real transition, the frozen model predicts the next DINO latent from two context frames
+and two time-aligned actions reconstructed from consecutive observed poses. The target is the
+frozen encoder representation of the actual next frame, and only the final teacher-forced
+prediction is scored.
+The nonconformity score is latent root-mean-squared error, so the conformal set is a latent ball
+centered at the model prediction.
+
+\paragraph{Controlled covariate shift.}
+On the finite indexed transition pool, $g_i\in[-1,1]$ is the empirical midrank of the translational
+current-context-to-target action magnitude. The tilt never uses the target RGB frame, target latent, or model
+residual. For preregistered $\lambda\in\{0,0.5,1,1.5\}$, we set
+$P_\lambda(i)\propto\exp(-\lambda g_i)$ and
+$Q_\lambda(i)\propto\exp(+\lambda g_i)$. The tilt depends only on the covariate and preserves
+common support and the empirical conditional target law exactly. We compare unweighted,
+oracle-ratio, estimated-ratio, and ratio-clipped weighted conformal prediction at
+$\alpha\in\{0.05,0.1,0.2\}$ across 50 fixed repetitions.

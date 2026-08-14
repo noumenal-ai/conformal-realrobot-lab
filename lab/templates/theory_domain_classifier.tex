@@ -1,0 +1,29 @@
+\begin{theorem}[Domain-classifier regret to density-ratio error]
+Let $M=(1-\rho)P+\rho Q$, let $\eta(x)=\Pr(D=1\mid X=x)$ in the corresponding
+domain-classification experiment, and let $h(x)\in[\gamma,1-\gamma]$. Define
+\[
+\widehat w_h(x)=\frac{1-\rho}{\rho}\frac{h(x)}{1-h(x)},
+\qquad
+\Delta_{\log}(h)=R(h)-R(\eta).
+\]
+Then
+\[
+\mathbb E_P|dQ/dP-\widehat w_h|
+\le \frac{1}{\rho\gamma}\sqrt{\frac{\Delta_{\log}(h)}{2}}.
+\]
+For $\rho=1/2$, the right-hand side is $\sqrt{2\Delta_{\log}(h)}/\gamma$.
+\end{theorem}
+
+\begin{proof}
+Bayes' rule gives $dP/dM=(1-\eta)/(1-\rho)$ and
+$dQ/dM=\eta/\rho$, hence $dQ/dP=((1-\rho)/\rho)\eta/(1-\eta)$. Therefore
+\[
+\mathbb E_P|dQ/dP-\widehat w_h|
+=\frac1\rho\mathbb E_M\frac{|\eta-h|}{1-h}
+\le\frac1{\rho\gamma}\mathbb E_M|\eta-h|.
+\]
+The log-loss regret identity yields
+$\Delta_{\log}(h)=\mathbb E_M\mathrm{KL}(\mathrm{Bern}(\eta)\|\mathrm{Bern}(h))$.
+Binary Pinsker and Cauchy--Schwarz imply
+$\mathbb E_M|\eta-h|\le\sqrt{\Delta_{\log}(h)/2}$.
+\end{proof}

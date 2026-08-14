@@ -1,0 +1,17 @@
+.venv/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.egg-info/
+work/*
+!work/.gitkeep
+outputs/*
+!outputs/.gitkeep
+lean/statistical/.lake/
+lean/statistical/lake-manifest.json
+lean/statistical/ZPM/
+lean/statistical/ZPM.lean
+lean/causal/.lake/
+lean/causal/lake-manifest.json
+lean/causal/Causality/
+lean/causal/Causality.lean

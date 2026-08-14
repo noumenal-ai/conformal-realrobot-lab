@@ -1,0 +1,12 @@
+{
+  "action_normalization": false,
+  "camera": "exterior_image_2_left",
+  "context_window": 2,
+  "encoder": "dinov2_vits14",
+  "fps": 4,
+  "manifest_pattern_count": 15,
+  "model_config": "configs/evals/simu_env_planning/droid/dino-wm/droid_L2_cem_sourcedset_H3_nas3_maxnorm01_ctxt2_gH3_r224_alpha0_ep64_decode.yaml",
+  "predictor": "dino_wm",
+  "real_dataset": "Franka_hf/franka_custom",
+  "status": "PASS"
+}

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=70", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ccwm-realrobot-lab"
+version = "1.0.0"
+description = "Frozen real-robot weighted conformal experiment"
+requires-python = ">=3.10,<3.11"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

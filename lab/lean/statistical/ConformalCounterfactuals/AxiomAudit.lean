@@ -1,0 +1,9 @@
+import ConformalCounterfactuals
+
+#print axioms ConformalCounterfactuals.odds_sub_odds
+#print axioms ConformalCounterfactuals.finite_posterior_ratio_identity
+#print axioms ConformalCounterfactuals.abs_sub_le_sqrt_klBin
+#print axioms ConformalCounterfactuals.finite_mean_abs_le_sqrt_mean_kl
+#print axioms ConformalCounterfactuals.domain_classifier_regret_to_ratio_l1
+#print axioms ConformalCounterfactuals.balanced_domain_classifier_regret_to_ratio_l1
+#print axioms ConformalCounterfactuals.classifier_regret_coverage_composition
