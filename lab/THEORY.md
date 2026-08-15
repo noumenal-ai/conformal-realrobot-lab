@@ -1,4 +1,4 @@
-# Domain-classifier regret implies a density-ratio and coverage certificate
+# Domain-classifier regret implies density-ratio and coverage bounds
 
 This file freezes the theorem used by the experiment. It is not a research prompt. The
 statements, constants, and scope below must not be changed by the execution agent.
@@ -159,7 +159,7 @@ For the balanced domain experiment `rho=1/2`,
 No smoothness, parametric correctness, bounded true density ratio, or score boundedness is
 used. The only overlap guardrail in this conversion is the clipping of the *estimated*
 posterior away from one. When the right-hand side is greater than one, the resulting coverage
-certificate is valid but uninformative; the exact finite-pool TV diagnostic should then be used.
+bound is valid but uninformative; the exact finite-pool TV diagnostic should then be used.
 
 ## 5. Coverage corollary
 
@@ -223,7 +223,7 @@ u_N(\delta)=L_\gamma\sqrt{\frac{\log(2K/\delta)}{2N}}.
 \]
 
 This route requires realizability and is deliberately not used for the headline real-data
-certificate.
+coverage bound.
 
 ### 6.2 Exact finite-pool interface used here
 
@@ -240,7 +240,7 @@ finite summation:
 \]
 
 This removes any need to estimate Bayes risk or assert classifier realizability. It is a
-conditional-on-the-real-pool certificate. Episode-cluster bootstrap intervals are reported
+conditional-on-the-real-pool bound. Episode-cluster bootstrap intervals are reported
 separately to describe sensitivity to the sampled physical trajectories.
 
 ## 7. Sources and inherited proof routes

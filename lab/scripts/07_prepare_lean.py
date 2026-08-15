@@ -37,7 +37,14 @@ def extract_clean(archive: Path, destination: Path) -> None:
 
 
 def find_parent_with(root: Path, child_name: str) -> Path:
-    candidates = [path.parent for path in root.rglob(child_name) if path.is_dir() and "__MACOSX" not in path.parts]
+    candidates = [
+        path.parent
+        for path in root.rglob(child_name)
+        if path.is_dir()
+        and path.name == child_name
+        and (path.parent / f"{child_name}.lean").is_file()
+        and "__MACOSX" not in path.parts
+    ]
     if len(candidates) != 1:
         raise RuntimeError(f"Expected one parent containing {child_name} under {root}, found {candidates}")
     return candidates[0]

@@ -50,7 +50,7 @@ def _required_outputs(root: Path) -> list[Path]:
         root / "work" / "git_sources.resolved.json",
         root / "work" / "lean_sources.resolved.json",
     ]
-    for stem in ["coverage_vs_shift", "certificate_diagnostics", "ess_vs_shift", "radius_vs_shift"]:
+    for stem in ["coverage_vs_shift", "coverage_bound_diagnostics", "ess_vs_shift", "radius_vs_shift"]:
         required.extend([figures / f"{stem}.pdf", figures / f"{stem}.png"])
     return required
 

@@ -21,7 +21,7 @@ M_i=(1-\rho)P_i+\rho Q_i,\qquad
 \eta_i=\frac{\rho w_i}{1-\rho+\rho w_i}.
 \]
 
-## Domain classifier and certificate
+## Domain classifier and coverage bound
 
 Fit the preregistered one-feature ridge logistic classifier on independent source and target
 index draws. Clip its posterior to `[gamma,1-gamma]` and set

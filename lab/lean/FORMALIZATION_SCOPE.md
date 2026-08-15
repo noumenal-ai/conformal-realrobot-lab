@@ -1,6 +1,6 @@
 # Lean build scope
 
-The two builds certify exactly the following locked objects.
+The two builds verify exactly the following locked objects.
 
 ## Statistical workspace
 
