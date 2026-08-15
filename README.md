@@ -1,4 +1,6 @@
-# Conformal Real-Robot Lab v1 — theory result parcel
+# Calibrated for Which Policy? Conformal Uncertainty for Fixed World Models Under Intervention
+
+Reproducibility repository for the paper of the same title.
 
 FINAL STATUS: PASS
 
