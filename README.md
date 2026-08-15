@@ -33,6 +33,14 @@ formalizes the posterior-ratio algebra, binary-Pinsker-to-mean bound, classifier
 and coverage composition. The causal development formalizes the common-state propensity identity
 and the supplied intervention parent-set properties.
 
+The statistical workspace vendors the binary-Pinsker and finite-PMF modules from Dhruv Gupta's
+[`zetesis-puremath`](https://github.com/Zetetic-Dhruv/zetesis-puremath) Lean repository. The causal
+workspace vendors the SCM intervention architecture from the Causality sub-library of
+[`noumenal-ai/design-lab`](https://github.com/noumenal-ai/design-lab), whose exact released snapshot
+is preserved in [`lab/causality.zip`](lab/causality.zip). Both workspaces build against separately
+pinned revisions of [`mathlib4`](https://github.com/leanprover-community/mathlib4); the archive
+digests and dependency pins are recorded in [`lab/SOURCES.md`](lab/SOURCES.md).
+
 ## Contents
 
 - `lab/outputs/`: complete results, raw model scores, figures, paper fragments, reports, provenance,

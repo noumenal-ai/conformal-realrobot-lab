@@ -37,10 +37,13 @@ SHA-256 hashes in the run manifest.
 
 ### Measurements archive
 
+- Source repository: Dhruv Gupta,
+  [`Zetetic-Dhruv/zetesis-puremath`](https://github.com/Zetetic-Dhruv/zetesis-puremath).
 - Included archive: `measurements(2).zip`.
 - Locked SHA-256: `4535226e6b52804c0c72a214263c9fa8e35da9971395c08b0083b5c8bc598d60`.
 - Lean: `leanprover/lean4:v4.30.0-rc2`.
-- Mathlib: `2c53994ec06c7197a0f05dd85e8aae96e454efb8`.
+- Mathlib source: [`leanprover-community/mathlib4`](https://github.com/leanprover-community/mathlib4),
+  commit `2c53994ec06c7197a0f05dd85e8aae96e454efb8`.
 - Used declarations:
   - `InformationTheory.binary_pinsker`;
   - `InformationTheory.pinsker_proof`;
@@ -50,10 +53,13 @@ SHA-256 hashes in the run manifest.
 
 ### Causality archive
 
+- Source repository: Causality sub-library of
+  [`noumenal-ai/design-lab`](https://github.com/noumenal-ai/design-lab).
 - Included archive: `causality.zip`.
 - Locked SHA-256: `10d36e640eb12c57feb716d775b1e203cbeeeb8c06c574a5a1bd7084477a1a61`.
 - Lean: `leanprover/lean4:v4.31.0`.
-- Mathlib: `fabf563a7c95a166b8d7b6efca11c8b4dc9d911f`.
+- Mathlib source: [`leanprover-community/mathlib4`](https://github.com/leanprover-community/mathlib4),
+  commit `fabf563a7c95a166b8d7b6efca11c8b4dc9d911f`.
 - Used declarations:
   - `Causality.SCM`;
   - `Causality.SCM.doIntervene`.
