@@ -86,3 +86,9 @@ lake build
 
 `lake build` compiles the five roots of `PolicyShift` and reports zero errors, zero
 warnings, and zero remaining goals.
+
+## License
+
+Copyright 2026 Ayush Mittal and Dhruv Gupta. Released under the
+[Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
+(`CC-BY-4.0`); see `LICENSE`. Mathlib is a separate work under the Apache License 2.0.
