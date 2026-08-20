@@ -1,5 +1,0 @@
-import ConformalCounterfactualsCausal
-
-#print axioms ConformalCounterfactuals.common_state_propensity_identity
-#print axioms ConformalCounterfactuals.doIntervene_clears_parents
-#print axioms ConformalCounterfactuals.doIntervene_preserves_other_parents

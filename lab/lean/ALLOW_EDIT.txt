@@ -1,3 +1,0 @@
-lean/statistical/ConformalCounterfactuals/DomainClassifier.lean
-lean/causal/ConformalCounterfactuals/CommonState.lean
-lean/causal/ConformalCounterfactuals/Intervention.lean
